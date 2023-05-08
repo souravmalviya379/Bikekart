@@ -1,7 +1,8 @@
 import mongoose from 'mongoose';
 import env from './environment.js';
 
-mongoose.connect("mongodb+srv://souravmalviya:souravmalviya11@cluster0.hbdeq0e.mongodb.net/"+env.db);
+// mongoose.connect("mongodb+srv://souravmalviya:souravmalviya11@cluster0.hbdeq0e.mongodb.net/"+env.db);
+mongoose.connect('mongodb://127.0.0.1/'+env.db)
 
 const db = mongoose.connection;
 

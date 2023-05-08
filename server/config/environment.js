@@ -1,7 +1,7 @@
 const development = {
     name: 'development',
     port: 8001, 
-    db: "bikecart",
+    db: "Bikekart_DB",
     jwt_secret: "XpT7OoqccDKg8Oa14B5w"
 }
 
